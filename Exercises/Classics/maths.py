@@ -8,7 +8,7 @@ def pgcd(a, b):
     if b == 0:
         return a
     else:
-        a, b = b, a%b
+        a, b = b, a % b
         return pgcd(a, b)
 
 def fibonacci(n):

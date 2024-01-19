@@ -11,6 +11,6 @@ def moyenne(t):
     for i in range(len(t)):
         num = num + i * t[i]
     moyenne = num / len(t)
-    print("La moyenne de la classe est de",moyenne)
+    print("La moyenne de la classe est de", moyenne)
 
 moyenne(t)

@@ -2,7 +2,7 @@ from random import *
 
 def motrdm():
     mdp = ""
-    KEY = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789*&~#"
+    KEY = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789*&~#!?_"
     LENGHT = randint(10, 20)
     for i in range(LENGHT):
         mdp = mdp + KEY[randint(0, len(KEY) - 1)]
