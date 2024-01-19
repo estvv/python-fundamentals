@@ -24,6 +24,7 @@ Exercises :
         4 : Hamming
         5 : Basics maths functions
         6 : Basics sorting algorithms
+
     Unusuals :
         1 : Hanoi
         2 : Randomize Passwords
