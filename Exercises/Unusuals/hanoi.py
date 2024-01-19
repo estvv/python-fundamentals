@@ -10,4 +10,4 @@ def deplacer(a, b, c, k):
         deplacer(a, b, c, 1)
         deplacer(c, b, a, k - 1)
 
-deplacer("a","b","c",5)
+deplacer("a", "b", "c", 5)

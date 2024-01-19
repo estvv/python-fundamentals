@@ -1,6 +1,6 @@
 def ordi():
     t = [i for i in range(101)]
-    g,d = 0,len(t) - 1
+    g, d = 0, len(t) - 1
     print("Choisissez un nombre entre 0 et 100 mais ne le dites pas à l'ordi !!")
     r = ""
     while r != "=":

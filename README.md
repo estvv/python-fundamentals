@@ -17,11 +17,18 @@ Chapter II : Advanced
 
 Exercises :
 
-    1 : Basics sorting algorithms
-    2 : Hamming
-    3 : Grades Average
-    4 : Creation of a Tree library
-    5 : Randomize password
-    6 : Some maths (PGCD, Factorial)
-    7 : Find Numbers in array with Dichotomie
-    8 : Ordi find numbers with Dichotomie
+    Classics :
+
+        1 : Average rating
+        2 : Caesar Code
+        3 : Dichotomie
+        4 : Hamming
+        5 : Basics maths functions
+        6 : Basics sorting algorithms
+    
+    Unusuals :
+        1 : Hanoi
+        2 : Randomize Passwords
+        3 : Ordi find number
+        4 : Convert base
+        5 : Tree Library
