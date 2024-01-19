@@ -20,7 +20,7 @@ Exercises :
     Classics :
         1 : Average rating
         2 : Caesar Code
-        3 : Dichotomie
+        3 : Dichotomy
         4 : Hamming
         5 : Basics maths functions
         6 : Basics sorting algorithms
@@ -31,3 +31,4 @@ Exercises :
         3 : Ordi find number
         4 : Convert base
         5 : Tree Library
+        6 : Roman numerals

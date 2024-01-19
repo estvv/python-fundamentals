@@ -1,16 +1,15 @@
-def bin_to_dec(tab):
-    tab.reverse()
+def bin_to_dec(a):
+    a.reverse()
     c = 0
-    for i in range(len(tab)):
-        if tab[i] == 1:
+    for i in range(len(a)):
+        if a[i] == 1:
             c = c + 2 ** i
     return c
 
-def binaryToDecimal(binary):
-    decimal, i = 0, 0
-    while(binary != 0):
-        dec = binary % 10
-        decimal = decimal + dec * pow(2, i)
-        binary = binary // 10
-        i += 1
-    return decimal
+def dec_to_bin(a):
+    bin_a = str(a % 2)
+    a = a // 2
+    while a > 0 :
+        bin_a = str(a %2 ) + bin_a
+        a = a // 2
+    return bin_a
