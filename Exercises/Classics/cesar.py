@@ -1,9 +1,10 @@
 def cesar(message, decalage):
     resultat = ""
-    for c in message:
-        if 'A' <= c and c <= 'Z':
-            indice = (position_alphabet(c) + decalage) % 26
-            resultat = resultat + ALPHABET[indice]
+    for lettre in message:
+        if lettre >= 'A' and lettre <= 'Z':
+            resultat = resultat + chr(((ord(lettre) - 65) + decalage) % 26 + 65)
+        elif lettre >= 'a' and lettre <= 'z':
+            resultat = resultat + chr(((ord(lettre) - 97) + decalage) % 26 + 97)
         else:
-            resultat = resultat + c
+            resultat = resultat + lettre
     return resultat
