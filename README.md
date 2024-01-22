@@ -37,6 +37,9 @@ Exercises :
         5 : Tree Library
         6 : Roman numerals
 
-    Hard :
+    Hards :
         1 : Tic Tac Toe
         2 : Connect 4
+    
+    Technicals :
+        1 : Connect locally 2 Shells
