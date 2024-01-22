@@ -5,7 +5,7 @@ Chapter I : Basics
 
     1 : Variables
     2 : Basics Functions
-    3 : Python Functions
+    3 : Python Functions I
     4 : Conditions
     5 : Loops
 
@@ -14,6 +14,10 @@ Chapter II : Advanced
     1 : Arrays
     2 : Class
     3 : Library
+
+Chapter III : Medium
+
+    1 : Python Functions II
 
 Exercises :
 
@@ -32,3 +36,7 @@ Exercises :
         4 : Convert base
         5 : Tree Library
         6 : Roman numerals
+
+    Hard :
+        1 : Tic Tac Toe
+        2 : Connect 4

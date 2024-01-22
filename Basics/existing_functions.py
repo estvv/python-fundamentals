@@ -3,6 +3,8 @@ number = 10
 print("Salut !")
 print("J'ai",number,"ans !")
 print(number)
+array = [1, 2, 3]
+print(array)
 
 # Transform a variable type
 number = float(number) # Number become 10.0 instead of 10
