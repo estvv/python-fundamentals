@@ -9,7 +9,11 @@ def motrdm():
     return mdp
 
 def inverse(c):
-    if c=="":
+    if c == "":
         return c
     else:
         return c[-1] + inverse(c[:-1])
+
+if __name__ == '__main__':
+    password = motrdm()
+    print("Here is your random password :", password)

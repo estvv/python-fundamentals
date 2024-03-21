@@ -1,11 +1,11 @@
 def ordi():
     t = [i for i in range(101)]
     g, d = 0, len(t) - 1
-    print("Choisissez un nombre entre 0 et 100 mais ne le dites pas à l'ordi !!")
+    print("Choose a number between 0 - 100 but keep it safe !")
     r = ""
     while r != "=":
         m = (g + d) // 2
-        print(m,"votre nombre ? +, - ou = ?")
+        print(m,"-> is your number '+', '-' or '=' ?")
         r = input()
         if r == "-":
             d = m - 1

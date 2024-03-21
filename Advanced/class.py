@@ -6,8 +6,7 @@ class Person:
     def __str__(self):
         return f"{self.name}, {self.age}, {self.size}"
     def check_size(self):
-        print(self.name, "fait", self.size,"centimètres.")
-
+        print(self.name, "is", self.size," centimeters.")
 
 p1 = Person("John", 36, 180)
 print(p1.name)
