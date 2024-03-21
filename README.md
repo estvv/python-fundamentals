@@ -1,5 +1,5 @@
 # python-fundamentals
-Basics knowing of python.
+Basics knowing of python with exercises.
 
 Chapter I : Basics
 
