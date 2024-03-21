@@ -1,5 +1,5 @@
-# python-fundamentals
-Basics knowing of python with exercises.
+# Py'Scholar 🐍🎓
+Basics knowing of python including exercises.
 
 ## Chapter I : Basics
 
