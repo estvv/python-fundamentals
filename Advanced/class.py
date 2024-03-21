@@ -12,7 +12,5 @@ class Person:
 p1 = Person("John", 36, 180)
 print(p1.name)
 print(p1.age)
-
 print(p1)
-
 p1.check_size()

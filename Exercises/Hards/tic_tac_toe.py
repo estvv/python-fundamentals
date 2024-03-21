@@ -29,7 +29,7 @@ def debutjeu():
     if m==3:
         debutjeu()
 
-j,o=debutjeu()
+j, o = debutjeu()
 
 def pileouface(j1,j2):
     joueur1=0
@@ -69,7 +69,7 @@ def coup_possible(t,l,c):
     c=2
     return c
 
-def coup(jc,t):
+def coup(j,t):
     time.sleep(1)
     l=int(input("Choississez l'emplacement dans lequel vous souhaitez jouer votre coup en donnant la ligne: "))
     c=int(input("Choississez l'emplacement dans lequel vous souhaitez jouer votre coup en donnant la colonne: "))
@@ -81,8 +81,8 @@ def coup(jc,t):
         return (l,c)
 
 def changetab(jc,t):
-    p,s=coup(jc,t)
-    t[p][s]=jc
+    p,s = coup(jc,t)
+    t[p][s] = jc
     return t
 
 def changetabordi(oc,t):

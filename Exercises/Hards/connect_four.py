@@ -116,22 +116,26 @@ def automate():
             print("j2 a gagné")
             break
         time.sleep(0.1)
-#automate()
 
 def jeuContreAuto():
     g=grille_vide()
     j1=1
     j2=2
     while (not match_nul(g)):
+        numcol = -1
         coup_aleatoireintelligent(g,j1)
         affiche(g)
         if victoire(g,j1):
             print("L'ordinateur a gagné")
             break
-        numcol=int(input("Dans quelle colonne souhaitez-vous jouer ?(0-6)"))
+        while numcol < 0 or numcol > 6:
+            numcol=int(input("Dans quelle colonne souhaitez-vous jouer ? (0-6) "))
         jouer(g,j2,numcol)
         affiche(g)
         if victoire(g,j2):
             print("Vous avez gagné")
             break
-#jeuContreAuto()
+
+if __name__ == '__main__':
+    jeuContreAuto()
+    #automate()
