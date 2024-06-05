@@ -11,6 +11,9 @@ def add(first, second):
 
 print("Addition : ", add(first_number, second_number))
 
+def upgrade_add(first : int, second : int) -> int:
+    return first + second
+
 ####################################################
 print("-------------------------------------------")
 ####################################################
